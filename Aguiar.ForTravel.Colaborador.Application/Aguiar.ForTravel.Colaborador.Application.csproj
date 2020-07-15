@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0-preview.3.20181.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aguiar.ForTravel.Colaborador.Domain\Aguiar.ForTravel.Colaborador.Domain.csproj" />
+    <ProjectReference Include="..\Aguiar.ForTravel.Colaborador.Infra\Aguiar.ForTravel.Colaborador.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
